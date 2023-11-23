@@ -15,22 +15,30 @@
     <body class="container-fluid col-md-12">
 
         <nav class="navbar fixed-top col-md-12 border-bottom shadow bg-white">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="{{ asset('media/img/logo.png') }}" alt="Logo" width="60px" height="auto">
-                </a>
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            <div class="container justify-content-center">
+                <ul class="nav justify-content-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="{{ asset('media/img/logo.png') }}" alt="Logo" width="60px" height="auto">
+                    </a>
+                    <li class="nav-item my-3">
+                        <a class="nav-link fw-semibold mx-4" href="#">
+                            <i class="fa-solid fa-house"></i> Inicio
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de</a>
+                    <li class="nav-item my-3">
+                        <a class="nav-link fw-semibold mx-4" href="#about">
+                            <i class="fa-solid fa-address-card"></i> Acerca de
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                    <li class="nav-item my-3">
+                        <a class="nav-link fw-semibold mx-4" href="#proyectos">
+                            <i class="fa-solid fa-suitcase"></i> Proyectos
+                        </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
+                    <li class="nav-item my-3">
+                        <a class="nav-link fw-semibold mx-4" href="#testimonios">
+                            <i class="fa-solid fa-face-smile"></i> Testimonios
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -38,31 +46,29 @@
 
         <div class="container bg-white overflow-auto">
             <div class="container-fluid col-md-6 float-start">
-                <img src="{{ asset('media/img/ceo.jpg') }}" alt="Imagen Banner" class="container-fluid">
+                <img src="{{ asset('media/img/ceo.jpg') }}" alt="Imagen Banner" class="container">
             </div>
             <div class="container-fluid col-md-6 p-5 float-end">
                 <img src="{{ asset('media/img/logo.png') }}" alt="Logo" width="240px" height="auto" class="m-auto d-block">
-                <h1 class="text-center fs-1 fw-bold m-auto p-2">PabloProgramador</h1>
+                <h1 class="text-center fs-1 fw-bold m-auto p-2">Hola, soy Pablo Sánchez</h1>
                 <p class="text-center fs-4 fw-semibold m-auto p-2">Desarrollador y Sistematizador Web Administrativo de PyMES.</p>
-                <a href="#" class="m-auto text-center btn btn-primary p-2 d-block w-50 my-3 fw-semibold shadow">Acerca de mí</a>
+                <a href="#about" class="m-auto text-center btn btn-primary p-2 d-block w-50 my-3 fw-semibold shadow">Acerca de mí</a>
             </div>
         </div>
 
-        <div class="container bg-secondary-subtle overflow-auto my-5">
+        <div class="container overflow-auto my-5" id="about" style="background-image: url('media/img/panal (2).jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
             <div class="container-fluid col-md-6 float-start">
-                <h2 class="text-center fs-2 fw-bold m-auto p-2">Sobre mí</h2>
+                <h2 class="text-center fs-2 fw-bold m-auto p-2 my-3">PabloProgramador</h2>
                 <p class="fs-5 fw-semibold text-center p-2 my-2">Hola, mi nombre es <b>Pablo Sánchez</b>, me dedico al desarrollo y sistematización web de administración de PyMEs. 
                 En español, desarrollo sistemas administrativos a la medida de todo tipo para pequeñas y medianas empresas.</p>
-                <p class="fs-5 fw-semibold text-center p-2 my-2">Actualmente en 2024 cuento con 3 años de experiencia en la industria desarrollando diversos proyectos para PyMEs de 
-                    mi ciudad natal, teniendo un 100% de exito en estos.
                 </p>
-                <p class="fs-5 fw-semibold text-center p-2 my-2">Tengo conocimientos en el desarrollo de software en cada una de sus etapas: levantamiento de requerimientos, análisis 
+                <p class="fs-5 fw-semibold text-center p-2 my-2">Mis conocimientos abarcan el desarrollo de software en cada una de sus etapas: levantamiento de requerimientos, análisis 
                     y diseño de requerimientos, códificación y documentación, testing y despliegue de proyectos de software.
                 </p>
                 <p class="fs-5 fw-semibold text-center p-2 my-2">Todos estos conocimientos y habilidades a tu disposición para impulsar tu PyME a precios accesibles.</p>
             </div>
             <div class="container-fluid col-md-6 float-end">
-                <img src="{{ asset('media/img/profile2.jpeg') }}" alt="Imagen Perfil" class="container p-5">
+                <img src="{{ asset('media/img/profile2.jpeg') }}" alt="Imagen Perfil" class="container p-5 rounded">
             </div>
         </div>
 
@@ -73,154 +79,200 @@
             </div>
             <div class="container-fluid row p-2 my-5">
                 <div class="col-md-4">
-                    <p class="fs-6 fw-bold text-center">LENGUAJES DE PROGRAMACIÓN</p>
+                    <p class="fs-6 fw-bold text-center text-info">LENGUAJES DE PROGRAMACIÓN</p>
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">HTML</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 77%;"></span>
+                        <span class="bg-white border border-info d-block" >
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 77%; font-size: 13px; text-align: right;">77%</span>
                         </span>
                     </div>
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">CSS</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 50%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right;">50%</span>
                         </span>
                     </div>
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">JAVASCRIPT</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 45%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 45%; font-size: 13px; text-align: right;">45%</span>
                         </span>
                     </div>
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">PHP</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 85%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 85%; font-size: 13px; text-align: right;">85%</span>
                         </span>
                     </div>
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">AJAX</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 20%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 20%; font-size: 13px; text-align: right;">20%</span>
                         </span>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <p class="fs-6 fw-bold text-center">METODOLOGÍAS DE DESARROLLO</p>
+                    <p class="fs-6 fw-bold text-center text-info">METODOLOGÍAS DE DESARROLLO</p>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">ARQUITECTURA DE SOFTWARE</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 50%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">METODOLOGÍA ÁGILES DE DESARROLLO</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 45%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 45%; font-size: 13px; text-align: right">45%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">UX & UI</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 50%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">UML</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 50%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
                         </span>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <p class="fs-6 fw-bold text-center">OTRAS HERRAMIENTAS</p>
+                    <p class="fs-6 fw-bold text-center text-info">OTRAS HERRAMIENTAS</p>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">FRAMEWORK LARAVEL</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 77%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 77%; font-size: 13px; text-align: right">77%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">FIGMA</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 50%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">MYSQL</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 80%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 80%; font-size: 13px; text-align: right">80%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">MYSQL WORKBENCH</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 50%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
                         </span>
                     </div>
                     
                     <div class="container-fluid p-2">
                         <p class="fs-6 fw-semibold text-secondary">GIT</p>
-                        <span class="bg-white border d-block">
-                            <span class="bg-secondary d-block p-2" style="width: 40%;"></span>
+                        <span class="bg-white border border-info d-block">
+                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 40%; font-size: 13px; text-align: right">40%</span>
                         </span>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container bg-secondary p-5 my-5">
-            <h2 class="fs-2 fw-bold text-white text-center p-2">MI PORTAFOLIOS</h2>
+        <div class="container p-5 my-5" id="proyectos">
+            <h2 class="fs-2 fw-bold text-center p-2">MI PORTAFOLIOS</h2>
+            <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounde w-50 m-auto">Proyectos Personalizados</p>
             <div class="container-fluid row">
                 <div class="col-md-4 my-5">
-                    <img src="{{ asset('media/img/sete01.jpg') }}" alt="Imagen Titulos" class="container p-2" height="400px">
-                    <h3 class="fs-5 fw-semibold text-white text-center p-2">Títulos Electrónicos</h3>
-                    <p class="fs-6 fw-normal text-white text-center p-2">Desarrollo personalizado de sistema para la gestión de información 
+                    <img src="{{ asset('media/img/logoColegioSnFco.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Títulos Electrónicos</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Diciembre 2019 - Enero 2020</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo personalizado de sistema para la gestión de información 
                         para crear títulos electrónicos de los alumnos egresados de la institución Colegio de San Francisco. Esto bajo 
                         los lineamientos y aprobación de la SEP y la DGP.
                     </p>
-                    <a href="#" class="text-center btn btn-info d-block m-auto p-2 fw-semibold">Ver Proyecto</a>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalTitulos">Ver Proyecto</a>
                 </div>
+                @include('titulos')
                 <div class="col-md-4 my-5">
-                    <img src="{{ asset('media/img/card01.jpg') }}" alt="Imagen Titulos" class="container p-2" height="400px">
-                    <h3 class="fs-5 fw-semibold text-white text-center p-2">Wings Mania</h3>
-                    <p class="fs-6 fw-normal text-white text-center p-2">Desarrollo personalizado de sistema para la gestión de platillos, 
+                    <img src="{{ asset('media/img/wingsmania_logo.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Wings Mania</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Septiembre 2020 - Actualidad</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo personalizado de sistema para la gestión de platillos, 
                         inventario, pedidos, corte de caja y toma de pedidos de forma remota en el restaurante Wings Mania. Actualmente 
                         esta bajo actualización y mantenimiento.
                     </p>
-                    <a href="#" class="text-center btn btn-info d-block m-auto p-2 fw-semibold">Ver Proyecto</a>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalWings">Ver Proyecto</a>
                 </div>
+                @include('wings')
                 <div class="col-md-4 my-5">
-                    <img src="{{ asset('media/img/certificados.jpg') }}" alt="Imagen Titulos" class="container p-2" height="400px">
-                    <h3 class="fs-5 fw-semibold text-white text-center p-2">Certificados Electrónicos</h3>
-                    <p class="fs-6 fw-normal text-white text-center p-2">Desarrollo personalizado de sistema para la gestión de información 
-                        para crear certificados electrónicos de los alumnos egresados de la institución Colegio de San Francisco. Esto bajo 
-                        los lineamientos y aprobación de la SEP y la DGP.
-                    </p>
-                    <a href="#" class="text-center btn btn-info d-block m-auto p-2 fw-semibold">Ver Proyecto</a>
-                </div>
-                <div class="col-md-4 my-5">
-                    <img src="{{ asset('media/img/agenda.jpg') }}" alt="Imagen Titulos" class="container p-2" height="400px">
-                    <h3 class="fs-5 fw-semibold text-white text-center p-2">Aydee Footwear</h3>
-                    <p class="fs-6 fw-normal text-white text-center p-2">Desarrollo personalizado de sistema para la gestión de pedidos 
+                    <img src="{{ asset('media/img/logo-wbg.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Aydee Footwear</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Marzo 2023 - Actualidad</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo personalizado de sistema para la gestión de pedidos 
                         y agenda de actividades de estos, permitiendo a los empleados conocer las actividades que tienen por realizar de 
                         cada pedido. Actualmente en mantenimiento.
                     </p>
-                    <a href="#" class="text-center btn btn-info d-block m-auto p-2 fw-semibold">Ver Proyecto</a>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalAydee">Ver Proyecto</a>
+                </div>
+                @include('aydee')
+                <div class="col-md-4 my-5">
+                    <img src="{{ asset('media/img/logoColegioSnFco.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Certificados Electrónicos</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Junio 2022 - Julio 2022</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo personalizado de sistema para la gestión de información 
+                        para crear certificados electrónicos de los alumnos egresados de la institución Colegio de San Francisco. Esto bajo 
+                        los lineamientos y aprobación de la SEP y la DGP.
+                    </p>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalCertificados">Ver Proyecto</a>
+                </div>
+                @include('certificados')
+            </div>
+
+            <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounded w-50 m-auto">Proyectos Personales</p>
+            <div class="container-fluid row">
+                <div class="col-md-4 my-5">
+                    <img src="{{ asset('media/img/2.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Foodify</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo de plataforma web administrativa para PyMEs dedicadas 
+                        a la producción y venta de alimentos y bebidas (restaurantes, bares, reposterías, cafeterías, etc.), adaptable a 
+                        dispositivos móviles y capacidad de gestionar diversas áreas. Actualmente en fase de desarrollo.
+                    </p>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalFoodify">Ver Proyecto</a>
+                </div>
+                @include('foodify')
+                <div class="col-md-4 my-5">
+                    <img src="{{ asset('media/img/logo01.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">SIEBDATA</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo de plataforma web para la gestión, creación y descarga 
+                        de archivos XML para tramitar títulos y certificados electrónicos de las IPES (Instituciones Privadas de Educación Superior).
+                        ante la SEP y la DGP. Actualmente en fase de desarrollo.
+                    </p>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalSiebdata">Ver Proyecto</a>
+                </div>
+                @include('siebdata')
+                <div class="col-md-4 my-5">
+                    <img src="{{ asset('media/img/logo.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Agenda Productiva</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo de plataforma web para la gestión de pedidos de clientes, 
+                        seguimiento de actividades de procesos productivos e industriales de cualquier PyMEs dedicada a la producción textil y calzado. 
+                        Actualmente en fase de análisis y diseño.
+                    </p>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold">Proximamente</a>
                 </div>
             </div>
         </div>
 
-        <div class="container bg-white p-5 my-5">
-            <div class="container bg-secondary overflow-auto p-2">
+        <div class="container bg-secondary-subtle p-5 my-5 shadow-lg rounded" id="testimonios">
+            <h3 class="text-center fs-2 fw-bold p-2 my-5">Clientes Satisfechos</h3>
+            <div class="container bg-secondary overflow-auto p-3 my-5">
                 <div class="col-md-4 float-start">
                     <img src="{{ asset('media/img/wingsmania.jpg') }}" alt="" width="400px" height="200px">
                 </div>
@@ -232,7 +284,7 @@
                 </div>
             </div>
 
-            <div class="container bg-secondary-subtle overflow-auto p-2">
+            <div class="container bg-secondary-subtle overflow-auto p-3 my-5">
                 
                 <div class="col-md-7 float-start">
                     <p class="text-secondary d-block fs-5 fw-semibold">"asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj 
@@ -245,7 +297,7 @@
                 </div>
             </div>
 
-            <div class="container bg-secondary overflow-auto p-2">
+            <div class="container bg-secondary overflow-auto p-3 my-5">
                 <div class="col-md-4 float-start">
                     <img src="{{ asset('media/img/agenda.jpg') }}" alt="" width="400px" height="200px">
                 </div>
@@ -293,7 +345,10 @@
                     </li>
                 </ul>
             </div>
-        </footer>
-        
+        </footer>   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="{{ asset('js/jquery-3.7.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('js/sweetAlert.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('js/agenda.js') }}" type="text/javascript"></script>
     </body>
 </html>
