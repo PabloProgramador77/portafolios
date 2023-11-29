@@ -15,16 +15,22 @@
                 </p>
                 <div class="container-fluid row">
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete01.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/siebdata01.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete02.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/siebdata02.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete03.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/siebdata03.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete04.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/siebdata04.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('media/img/siebdata05.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="{{ asset('media/img/siebdata06.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                 </div>
                 <div class="container-fluid p-2">
@@ -58,42 +64,22 @@
                 </div>
                 <div class="container-fluid p-2">
                     <p class="p-2 text-secondary fw-normal fs-6 border-bottom">Fue desarrollado con las tecnologías siguientes:</p>
-                    <div class="container row">
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">HTML</p>
+                    <div class="container row text-center">
+                        <div class="col-md-12 my-3">
+                            <img src="{{ asset('media/img/html.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/bootstrap.png') }}" alt="Icono CSS" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/php.png') }}" alt="Icono PHP" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/laravel.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/sweetalert.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/js.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/mysql.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/adminlte.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/git.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/pdf.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/openssl.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/xml.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/uml.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
                         </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Boostrap</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">MySQL</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">OpenSSL</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">XML Writter</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">PHP</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Laravel</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">AdminLTE</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Javascript</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid row">
-                    <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete05.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete06.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
                     </div>
                 </div>
                 <a href="https://siebdata.pabloprogramador.com.mx" class="btn btn-primary d-block w-50 m-auto my-5" role="button" target="_blank">Versión de Demostración</a>

@@ -14,16 +14,16 @@
                 </p>
                 <div class="container-fluid row">
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete01.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/wingsmania01.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete02.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/wingsmania02.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete03.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/wingsmania03.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete04.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/wingsmania04.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                 </div>
                 <div class="container-fluid p-2">
@@ -66,33 +66,25 @@
                 </div>
                 <div class="container-fluid p-2">
                     <p class="p-2 text-secondary fw-normal fs-6 border-bottom">Fue desarrollado con las tecnologías siguientes:</p>
-                    <div class="container row">
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">HTML</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">CSS</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">MySQL</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Javascript</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">PHP</p>
-                        </div>
-                        <div class="col-md-4">
-                            <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">MPDF</p>
+                    <div class="container row text-center">
+                        <div class="col-md-12 my-3">
+                            <img src="{{ asset('media/img/html.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/css.png') }}" alt="Icono CSS" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/php.png') }}" alt="Icono PHP" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/laravel.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/pdf.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/sweetalert.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/js.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
+                            <img src="{{ asset('media/img/mysql.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
                         </div>
                     </div>
                 </div>
                 <div class="container-fluid row">
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete05.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/wingsmania05.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                     <div class="col-md-6">
-                        <img src="{{ asset('media/img/sete06.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
+                        <img src="{{ asset('media/img/wingsmania06.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
                     </div>
                 </div>
                 <a href="https://wingsmania.pabloprogramador.com.mx" class="btn btn-primary d-block w-50 m-auto my-5" role="button" target="_blank">Versión de Demostración</a>
