@@ -45,10 +45,10 @@
         </nav>
 
         <div class="container bg-white overflow-auto">
-            <div class="container-fluid col-md-6 float-start">
-                <img src="{{ asset('media/img/ceo.jpg') }}" alt="Imagen Banner" class="container">
+            <div class="container-fluid col-lg-6 float-start">
+                <img src="{{ asset('media/img/ceo.jpg') }}" alt="Imagen Banner" width="100%" class="shadow">
             </div>
-            <div class="container-fluid col-md-6 p-5 float-end">
+            <div class="container-fluid col-lg-6 p-5 float-end">
                 <img src="{{ asset('media/img/logo.png') }}" alt="Logo" width="240px" height="auto" class="m-auto d-block">
                 <h1 class="text-center fs-1 fw-bold m-auto p-2">Hola, soy Pablo Sánchez</h1>
                 <p class="text-center fs-4 fw-semibold m-auto p-2">Desarrollador y Sistematizador Web Administrativo de PyMES.</p>
@@ -68,7 +68,7 @@
                 <p class="fs-5 fw-semibold text-center p-2 my-2">Todos estos conocimientos y habilidades a tu disposición para impulsar tu PyME a precios accesibles.</p>
             </div>
             <div class="container-fluid col-md-6 float-end">
-                <img src="{{ asset('media/img/profile2.jpeg') }}" alt="Imagen Perfil" class="container p-5 rounded">
+                <img src="{{ asset('media/img/profile2bg.png') }}" alt="Imagen Perfil" class="container p-5 rounded">
             </div>
         </div>
 
@@ -78,106 +78,95 @@
                 <h2 class="fs-2 fw-bold p-2">HABILIDADES Y CONOCIMIENTOS</h2>
             </div>
             <div class="container-fluid row p-2 my-5">
-                <div class="col-md-4">
-                    <p class="fs-6 fw-bold text-center text-info">LENGUAJES DE PROGRAMACIÓN</p>
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">HTML</p>
-                        <span class="bg-white border border-info d-block" >
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 77%; font-size: 13px; text-align: right;">77%</span>
-                        </span>
-                    </div>
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">CSS</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right;">50%</span>
-                        </span>
-                    </div>
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">JAVASCRIPT</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 45%; font-size: 13px; text-align: right;">45%</span>
-                        </span>
-                    </div>
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">PHP</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 85%; font-size: 13px; text-align: right;">85%</span>
-                        </span>
-                    </div>
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">AJAX</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 20%; font-size: 13px; text-align: right;">20%</span>
-                        </span>
+                <div class="col-lg-4">
+                    <p class="fs-6 fw-bold text-center text-info">TECNOLOGÍAS</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/html.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">HTML</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/css.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">CSS</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/js.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Javascript</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/php.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">PHP</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/ajax.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">AJAX</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/mysql.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">MySQL</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <p class="fs-6 fw-bold text-center text-info">METODOLOGÍAS DE DESARROLLO</p>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">ARQUITECTURA DE SOFTWARE</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">METODOLOGÍA ÁGILES DE DESARROLLO</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 45%; font-size: 13px; text-align: right">45%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">UX & UI</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">UML</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
-                        </span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/ingenieria.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Ing. De Software</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/ux.jpeg') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">UX & UI</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/uml-logo.jpg') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">UML</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/ieee830.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">IEEE-830 1998</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <p class="fs-6 fw-bold text-center text-info">OTRAS HERRAMIENTAS</p>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">FRAMEWORK LARAVEL</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 77%; font-size: 13px; text-align: right">77%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">FIGMA</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">MYSQL</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 80%; font-size: 13px; text-align: right">80%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">MYSQL WORKBENCH</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 50%; font-size: 13px; text-align: right">50%</span>
-                        </span>
-                    </div>
-                    
-                    <div class="container-fluid p-2">
-                        <p class="fs-6 fw-semibold text-secondary">GIT</p>
-                        <span class="bg-white border border-info d-block">
-                            <span class="bg-secondary d-block p-1 text-white fw-semibold" style="width: 40%; font-size: 13px; text-align: right">40%</span>
-                        </span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/laravel.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Laravel</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/bootstrap.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Bootstrap</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/figma.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Figma</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/firebase.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Firebase</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/git.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Git</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/cursor.svg') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">Cursor IDE</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/xml.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">XML</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/openssl.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">OpenSSL</span>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/sweetalert.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">SweetAlert</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,7 +176,7 @@
             <h2 class="fs-2 fw-bold text-center p-2">MI PORTAFOLIOS</h2>
             <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounde w-50 m-auto">Proyectos Personalizados</p>
             <div class="container-fluid row">
-                <div class="col-md-4 my-5">
+                <div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/logoColegioSnFco.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">Títulos Electrónicos</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Diciembre 2019 - Enero 2020</span>
@@ -198,7 +187,7 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalTitulos">Ver Proyecto</a>
                 </div>
                 @include('titulos')
-                <div class="col-md-4 my-5">
+                <div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/wingsmania_logo.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">Wings Mania</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Septiembre 2020 - Actualidad</span>
@@ -209,7 +198,7 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalWings">Ver Proyecto</a>
                 </div>
                 @include('wings')
-                <div class="col-md-4 my-5">
+                <div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/logo-wbg.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">Aydee Footwear</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Marzo 2023 - Actualidad</span>
@@ -220,7 +209,7 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalAydee">Ver Proyecto</a>
                 </div>
                 @include('aydee')
-                <div class="col-md-4 my-5">
+                <div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/logoColegioSnFco.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">Certificados Electrónicos</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Junio 2022 - Julio 2022</span>
@@ -235,7 +224,7 @@
 
             <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounded w-50 m-auto">Proyectos Personales</p>
             <div class="container-fluid row">
-                <div class="col-md-4 my-5">
+                <div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/2.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">Foodify</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
@@ -246,7 +235,7 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalFoodify">Ver Proyecto</a>
                 </div>
                 @include('foodify')
-                <div class="col-md-4 my-5">
+                <div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/logo01.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">SIEBDATA</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
@@ -257,26 +246,16 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalSiebdata">Ver Proyecto</a>
                 </div>
                 @include('siebdata')
-                <div class="col-md-4 my-5">
-                    <img src="{{ asset('media/img/logo.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
-                    <h3 class="fs-5 fw-semibold text-center p-2">Agenda Productiva</h3>
-                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
-                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo de plataforma web para la gestión de pedidos de clientes, 
-                        seguimiento de actividades de procesos productivos e industriales de cualquier PyMEs dedicada a la producción textil y calzado. 
-                        Actualmente en fase de análisis y diseño.
-                    </p>
-                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold">Proximamente</a>
-                </div>
             </div>
         </div>
 
         <div class="container bg-secondary-subtle p-5 my-5 shadow-lg rounded" id="testimonios">
             <h3 class="text-center fs-2 fw-bold p-2 my-5">Clientes Satisfechos</h3>
             <div class="container bg-secondary overflow-auto p-3 my-5">
-                <div class="col-md-4 float-start">
-                    <img src="{{ asset('media/img/wingsmania.jpg') }}" alt="" width="400px" height="200px">
+                <div class="col-lg-4 float-start">
+                    <img src="{{ asset('media/img/wingsmania.jpg') }}" alt="" width="400px" height="200px" class="container">
                 </div>
-                <div class="col-md-7 float-end">
+                <div class="col-lg-7 float-end">
                     <p class="text-white d-block fs-5 fw-semibold">"asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj 
                     asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj"</p>
                     <p class="text-white d-block fs-5 fw-bold">Ing. Oscar Noé Márquez Méndez</p>
@@ -286,20 +265,20 @@
 
             <div class="container bg-secondary-subtle overflow-auto p-3 my-5">
                 
-                <div class="col-md-7 float-start">
+                <div class="col-lg-7 float-start">
                     <p class="text-secondary d-block fs-5 fw-semibold">"asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj 
                     asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj"</p>
                     <p class="text-secondary d-block fs-5 fw-bold">Lic. Victor Cesar Guillen</p>
                     <p class="text-secondary d-block fs-6 fw-normal">SUPERVISOR DE CONTROL ESCOLAR DE COLEGIO DE SAN FRANCISCO</p>
                 </div>
-                <div class="col-md-4 float-end">
-                    <img src="{{ asset('media/img/sete01.jpg') }}" alt="" width="330px" height="200px">
+                <div class="col-lg-4 float-end">
+                    <img src="{{ asset('media/img/sete01.jpg') }}" alt="" width="330px" height="200px" class="container">
                 </div>
             </div>
 
             <div class="container bg-secondary overflow-auto p-3 my-5">
-                <div class="col-md-4 float-start">
-                    <img src="{{ asset('media/img/agenda.jpg') }}" alt="" width="400px" height="200px">
+                <div class="col-lg-4 float-start">
+                    <img src="{{ asset('media/img/agenda.jpg') }}" alt="" width="400px" height="200px" class="container">
                 </div>
                 <div class="col-md-7 float-end">
                     <p class="text-white d-block fs-5 fw-semibold">"asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj asjdkasjdj 
@@ -311,10 +290,10 @@
         </div>
 
         <footer class="container-fluid bg-dark p-5 overflow-auto">
-            <div class="col-md-5 float-start">
+            <div class="col-lg-5 float-start">
                 <img src="{{ asset('media/img/profile (2).png') }}" alt="" width="300px" height="auto">
             </div>
-            <div class="col-md-7 float-end">
+            <div class="col-lg-7 float-end">
                 <h3 class="fs-4 fw-bold text-white">PabloProgramador</h3>
                 <p class="fs-6 fw-normal text-white">"Si lo puedes imaginar, lo puedo programar"</p>
                 <p class="fs-5 fw-semibold text-white">Datos de Contacto:</p>
@@ -349,6 +328,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <script src="{{ asset('js/jquery-3.7.js') }}" type="text/javascript"></script>
         <script src="{{ asset('js/sweetAlert.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('js/agenda.js') }}" type="text/javascript"></script>
     </body>
 </html>

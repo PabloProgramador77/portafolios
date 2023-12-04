@@ -14,59 +14,59 @@
                     Actualmente se encuentra bajo constante mantenimiento y actualización.
                 </p>
                 <div class="container-fluid row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img src="{{ asset('media/img/foodify01.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img src="{{ asset('media/img/foodify02.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img src="{{ asset('media/img/foodify03.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img src="{{ asset('media/img/foodify04.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img src="{{ asset('media/img/foodify05.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <img src="{{ asset('media/img/foodify06.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
                     </div>
                 </div>
                 <div class="container-fluid p-2">
                     <p class="p-2 text-secondary fw-normal fs-6 border-bottom">Los módulos creados para este proyectos fueron:</p>
                     <div class="container row">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de usuarios</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de platillos</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de pedidos</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de categorías de menú</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de caja</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de cortes de caja</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Administración de movimientos de caja</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Toma de pedidos desde dispositivos móviles y tabletas</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Impresión de comandas en cocina</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Tickets de pago</p>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <p class="p-2 text-secondary fw-normal fs-6 bg-secondary-subtle">Personalización de platillos de clientes</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                 <div class="container-fluid p-2">
                     <p class="p-2 text-secondary fw-normal fs-6 border-bottom">Fue desarrollado con las tecnologías siguientes:</p>
                     <div class="container row text-center">
-                        <div class="col-md-12 my-3">
+                        <div class="col-lg-12 my-3">
                             <img src="{{ asset('media/img/html.png') }}" alt="Icono HTML" width="60px" height="auto" class="m-auto p-1 shadow">
                             <img src="{{ asset('media/img/bootstrap.png') }}" alt="Icono CSS" width="60px" height="auto" class="m-auto p-1 shadow">
                             <img src="{{ asset('media/img/php.png') }}" alt="Icono PHP" width="60px" height="auto" class="m-auto p-1 shadow">
