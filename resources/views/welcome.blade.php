@@ -167,6 +167,10 @@
                             <img src="{{ asset('media/img/sweetalert.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
                             <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">SweetAlert</span>
                         </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('media/img/adminlte.png') }}" alt="HTML Icono" width="60px" height="auto" class="my-1 mx-5">
+                            <span class="text-center fs-6 fw-semibold text-primary d-block border border-primary rounded">AdminLTE</span>
+                        </div>
                     </div>
                 </div>
             </div>

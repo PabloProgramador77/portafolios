@@ -11,24 +11,34 @@
                     como el envió de notificaciones en tiempo real a los usuario sobre sus actividades pendientes o subsecuentes, así como 
                     encargos especiales asignados. Actualmente se encuentra bajo platicas de actualización con mejores tecnologías.
                 </p>
-                <div class="container-fluid row">
-                    <div class="col-lg-6">
-                        <img src="{{ asset('media/img/aydee01.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
+                <div class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class="active"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class="active"></button>
+                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6" class="active"></button>
                     </div>
-                    <div class="col-lg-6">
-                        <img src="{{ asset('media/img/aydee02.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="{{ asset('media/img/aydee03.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="{{ asset('media/img/aydee04.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="{{ asset('media/img/aydee05.png') }}" alt="Imagen 1 SETE" class="container p-2 shadow">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="{{ asset('media/img/aydee06.png') }}" alt="Imagen 2 SETE" class="container p-2 shadow">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ asset('media/img/aydee01.png') }}" alt="Imagen 1 SETE" class="bd-placeholder-img shadow rounded" aria-hideden="true" width="100%" height="auto" preserveAspectRadio="xMidYMid slice" focusable="false">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{ asset('media/img/aydee02.png') }}" alt="Imagen 1 SETE" class="bd-placeholder-img shadow rounded" aria-hideden="true" width="100%" height="auto" preserveAspectRadio="xMidYMid slice" focusable="false">    
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{ asset('media/img/aydee03.png') }}" alt="Imagen 1 SETE" class="bd-placeholder-img shadow rounded" aria-hideden="true" width="100%" height="auto" preserveAspectRadio="xMidYMid slice" focusable="false">    
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{ asset('media/img/aydee04.png') }}" alt="Imagen 1 SETE" class="bd-placeholder-img shadow rounded" aria-hideden="true" width="100%" height="auto" preserveAspectRadio="xMidYMid slice" focusable="false">    
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{ asset('media/img/aydee05.png') }}" alt="Imagen 1 SETE" class="bd-placeholder-img shadow rounded" aria-hideden="true" width="100%" height="auto" preserveAspectRadio="xMidYMid slice" focusable="false">    
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="{{ asset('media/img/aydee06.png') }}" alt="Imagen 1 SETE" class="bd-placeholder-img shadow rounded" aria-hideden="true" width="100%" height="auto" preserveAspectRadio="xMidYMid slice" focusable="false">    
+                        </div>
                     </div>
                 </div>
                 <div class="container-fluid p-2">
