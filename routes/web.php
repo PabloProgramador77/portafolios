@@ -20,3 +20,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/articulos', [App\Http\Controllers\ArticuloController::class, 'index'])->name('articulos');
+Route::post('/articulo/agregar', [App\Http\Controllers\ArticuloController::class, 'store'])->name('agregar-articulo');
+Route::post('/articulo/buscar', [App\Http\Controllers\ArticuloController::class, 'show'])->name('buscar-articulo');
+Route::post('/articulo/actualizar', [App\Http\Controllers\ArticuloController::class, 'update'])->name('actualizar-articulo');
+Route::post('/articulo/borrar', [App\Http\Controllers\ArticuloController::class, 'destroy'])->name('borrar-articulo');

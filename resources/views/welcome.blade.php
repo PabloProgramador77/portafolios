@@ -239,7 +239,7 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalFoodify">Ver Proyecto</a>
                 </div>
                 @include('foodify')
-                <div class="col-lg-4 my-5">
+                <!--<div class="col-lg-4 my-5">
                     <img src="{{ asset('media/img/logo01.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
                     <h3 class="fs-5 fw-semibold text-center p-2">SIEBDATA</h3>
                     <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
@@ -249,7 +249,7 @@
                     </p>
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalSiebdata">Ver Proyecto</a>
                 </div>
-                @include('siebdata')
+                @include('siebdata')-->
             </div>
         </div>
 
@@ -292,6 +292,19 @@
                 </div>
             </div>
         </div>
+
+        <!--<div class="container-fluid p-5 my-5">
+            <p class="fs-3 fw-bold text-center">Artículos</p>
+            <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounde w-50 m-auto">Noticias sobre el mundo del desarrollo web y casos de exito</p>
+            <div class="container-fluid row">
+                <div class="col-lg-4 my-5">
+                    <img src="{{ asset('media/img/DesarrolloWebPersonalizadoLinkedIn.png') }}" alt="Artículo 01" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Los Beneficios del Desarrollo Personalizado para PyMEs</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Viernes 06 de Enero de 2024</span>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold my-2" href="#" target="_blank">Ver Artículo</a>
+                </div>
+            </div>
+        </div>-->
 
         <footer class="container-fluid bg-dark p-5 overflow-auto">
             <div class="col-lg-5 float-start">
