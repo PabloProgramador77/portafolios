@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="token" content="{{ csrf_token(); }}">
-        <title>Laravel</title>
+        <meta name="author" content="PabloProgramador">
+        <meta name="description" content="Desarrollo web personalizado de páginas, aplicaciones y sistemas administrativos para pymes de todo tipo">
+        <title>PabloProgramador</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
@@ -35,9 +37,14 @@
                             <i class="fa-solid fa-suitcase"></i> Proyectos
                         </a>
                     </li>
-                    <li class="nav-item my-3">
+                    <!--<li class="nav-item my-3">
                         <a class="nav-link fw-semibold mx-4" href="#testimonios">
                             <i class="fa-solid fa-face-smile"></i> Testimonios
+                        </a>
+                    </li>-->
+                    <li class="nav-item my-3">
+                        <a class="nav-link fw-semibold mx-4" href="#blog">
+                            <i class="fa-solid fa-face-smile"></i> Blog
                         </a>
                     </li>
                 </ul>
@@ -253,7 +260,7 @@
             </div>
         </div>
 
-        <div class="container bg-secondary-subtle p-5 my-5 shadow-lg rounded" id="testimonios">
+        <!--<div class="container bg-secondary-subtle p-5 my-5 shadow-lg rounded" id="testimonios">
             <h3 class="text-center fs-2 fw-bold p-2 my-5">Clientes Satisfechos</h3>
             <div class="container bg-secondary overflow-auto p-3 my-5">
                 <div class="col-lg-4 float-start">
@@ -291,20 +298,21 @@
                     <p class="text-white d-block fs-6 fw-normal">CEO DE AYDEE FOOTWEAR</p>
                 </div>
             </div>
-        </div>
-
-        <!--<div class="container-fluid p-5 my-5">
-            <p class="fs-3 fw-bold text-center">Artículos</p>
-            <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounde w-50 m-auto">Noticias sobre el mundo del desarrollo web y casos de exito</p>
-            <div class="container-fluid row">
-                <div class="col-lg-4 my-5">
-                    <img src="{{ asset('media/img/DesarrolloWebPersonalizadoLinkedIn.png') }}" alt="Artículo 01" class="container p-2 shadow-lg rounded" height="350px">
-                    <h3 class="fs-5 fw-semibold text-center p-2">Los Beneficios del Desarrollo Personalizado para PyMEs</h3>
-                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Viernes 06 de Enero de 2024</span>
-                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold my-2" href="#" target="_blank">Ver Artículo</a>
-                </div>
-            </div>
         </div>-->
+
+        <div class="container-fluid p-5 my-5" id="blog">
+            <p class="fs-3 fw-bold text-center">Artículos</p>
+            <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounde w-50 m-auto">Novedades y curiosidades sobre el mundo del desarrollo web</p>
+            <div class="container-fluid row">
+                @foreach( $articulos as $articulo )
+                    <div class="col-lg-4 my-5">
+                        <img src="media/{{ $articulo->imgArticulo }}" alt="Artículo 01" class="container p-2 shadow-lg rounded" height="350px">
+                        <h3 class="fs-5 fw-semibold text-center p-2">{{ $articulo->nombre }}</h3>
+                        <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold my-2" href="{{ $articulo->url }}" target="_blank">Ver Artículo</a>
+                    </div>
+                @endforeach
+            </div>
+        </div>
 
         <footer class="container-fluid bg-dark p-5 overflow-auto">
             <div class="col-lg-5 float-start">

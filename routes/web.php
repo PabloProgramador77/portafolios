@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Articulo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $articulos = Articulo::all();
+
+    return view('welcome', compact('articulos'));
+    
 });
 
 Auth::routes();
