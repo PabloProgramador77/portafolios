@@ -23,8 +23,7 @@ jQuery(document).ready(function(){
 
                 $("#nombreEditar").val( respuesta.nombre );
                 $("#urlEditar").val(respuesta.url);
-                $("#portadaEditar").val(respuesta.img);
-                $("#idArticulo").val($(this).attr('data-id'));
+                $("#idArticulo").val( respuesta.id );
 
             }else{
 
