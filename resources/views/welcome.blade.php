@@ -231,6 +231,16 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalCertificados">Ver Proyecto</a>
                 </div>
                 @include('certificados')
+                <div class="col-lg-4 my-5">
+                    <img src="{{ asset('media/img/higienica.png') }}" alt="Imagen Higienica" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">La Higienica</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Octubre 2024</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo personalizado de sistema para la gestión de información, registro e impresión 
+                        de notas, pedidos, prestamos y abonos de los clientes de la Carniceria conocida como La Higienica y La Higienica Premium.
+                    </p>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalHigienica">Ver Proyecto</a>
+                </div>
+                @include('higienica')
             </div>
 
             <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounded w-50 m-auto">Proyectos Personales</p>
@@ -246,17 +256,6 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalFoodify">Ver Proyecto</a>
                 </div>
                 @include('foodify')
-                <!--<div class="col-lg-4 my-5">
-                    <img src="{{ asset('media/img/logo01.png') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
-                    <h3 class="fs-5 fw-semibold text-center p-2">SIEBDATA</h3>
-                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Versión 2.0.0</span>
-                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo de plataforma web para la gestión, creación y descarga 
-                        de archivos XML para tramitar títulos y certificados electrónicos de las IPES (Instituciones Privadas de Educación Superior).
-                        ante la SEP y la DGP. Actualmente en fase de desarrollo.
-                    </p>
-                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalSiebdata">Ver Proyecto</a>
-                </div>
-                @include('siebdata')-->
             </div>
         </div>
 
