@@ -241,6 +241,17 @@
                     <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalHigienica">Ver Proyecto</a>
                 </div>
                 @include('higienica')
+                <div class="col-lg-4 my-5">
+                    <img src="{{ asset('media/img/wingsmania_logo.jpg') }}" alt="Imagen Titulos" class="container p-2 shadow-lg rounded" height="350px">
+                    <h3 class="fs-5 fw-semibold text-center p-2">Wings Mania Delivery</h3>
+                    <span class="text-center fs-6 fw-semibold bg-secondary-subtle d-block rounded text-secondary p-2">Julio 2024 - Actualidad</span>
+                    <p class="fs-6 fw-normal text-secondary text-center p-2">Desarrollo personalizado de sistema para la gestión de platillos, 
+                        inventario, pedidos, corte de caja y toma de pedidos a domicilio del restaurante Wings Mania. Actualmente 
+                        esta bajo actualización y mantenimiento.
+                    </p>
+                    <a role="button" class="text-center btn btn-info d-block m-auto p-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#modalWingsMania">Ver Proyecto</a>
+                </div>
+                @include('wingsmania')
             </div>
 
             <p class="fs-5 fw-semibold text-center p-2 text-secondary border-4 border-bottom rounded w-50 m-auto">Proyectos Personales</p>
